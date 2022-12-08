@@ -1,7 +1,7 @@
 node {
     
 	stage ('git clone'){
-	git branch: 'main', credentialsId: 'venky', url: 'https://github.com/Shivachinna1234/ayappa.git'
+	git branch: 'main', credentialsId: '111', url: 'https://github.com/Shivachinna1234/ayappa.git'
 	}
 	
 	stage ('java version') {
@@ -28,3 +28,4 @@ node {
 	}
 	}
 	
+
